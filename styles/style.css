@@ -75,6 +75,7 @@
   bottom: 0;
   right: 0;
   z-index: -1;
+  object-fit: fill;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -318,5 +319,6 @@
 .footer__social-icon {
   width: 16px;
   padding-right: 10px;
+  object-fit: fill;
 }
 
