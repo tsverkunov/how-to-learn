@@ -137,8 +137,16 @@
   padding: 100px 0;
 }
 
+.section-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .section-title {
-  margin: 0 auto 20px;
+  margin: 0;
+  padding-bottom: 20px;
+  /*margin: 0 auto 20px;*/
   max-width: 60%;
   width: 100%;
   text-align: center;
@@ -148,7 +156,8 @@
 }
 
 .section-subtitle {
-  margin: 0 auto;
+  margin: 0;
+  /*margin: 0 auto;*/
   max-width: 60%;
   width: 100%;
   text-align: center;
