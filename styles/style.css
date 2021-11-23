@@ -66,11 +66,11 @@
 .header__link {
   text-decoration: none;
   color: #2f80ed;
-  transition: color .2s ease-in-out;
+  transition: opacity .2s linear;
 }
 
 .header__link:hover {
-  color: #79b0ff;
+  opacity: .6;
 }
 
 .header__main-illustration {
@@ -240,11 +240,11 @@
   position: absolute;
   right: 48px;
   top: 50%;
-  transition: color .2s ease-in-out;
+  transition: opacity .2s linear;
 }
 
 .feynman__link:hover {
-  color: #79b0ff;
+  opacity: .6;
 }
 
 /*block kaufman*/
@@ -332,11 +332,11 @@
   font-weight: 400;
   text-decoration: none;
   color: white;
-  transition: color .2s ease-in-out;
+  transition: opacity .2s linear;
 }
 
 .footer__column-link:hover {
-  color: #a8a8a8;
+  opacity: .4;
 }
 
 .footer__social-icon {
