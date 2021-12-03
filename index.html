@@ -18,9 +18,10 @@
       можете использовать в своей жизни? <a class="header__link" href="#">Узнать &rarr;</a>
     </p>
     <img class="header__main-illustration" src="images/header-image.png" alt="мальчик с собакой">
-    <div class="header__square-pic"></div>
+    <div class="header__square-pic rotation"></div>
   </header>
   <main class="content">
+
     <section class="description">
       <div class="two-columns">
         <h3 class="two-columns__brief">Главные проблемы в обучении</h3>
@@ -41,6 +42,65 @@
         </div>
       </div>
     </section>
+
+    <section class="techniques">
+      <h2 class="section-title section-title_position_center">Техники обучения</h2>
+      <p class="section-subtitle section-subtitle_position_center">Пять практик от Барбары Оакли</p>
+      <ul class="cards cards_position_center">
+        <li class="cards__item cards__item_position_margin-right">
+          <img class="cards__image" src="./images/images_sprint-2/cards-attention.png" alt="attention">
+          <h4 class="cards__title">Два вида внимания</h4>
+          <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+        </li>
+        <li class="cards__item cards__item_position_margin-right">
+          <img class="cards__image" src="./images/images_sprint-2/cards-recall.png" alt="recall">
+          <h4 class="cards__title">Recall</h4>
+          <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+        </li>
+        <li class="cards__item cards__item_position_margin-right">
+          <img class="cards__image" src="./images/images_sprint-2/cards-interliving.png" alt="interliving">
+          <h4 class="cards__title">Интерливинг</h4>
+          <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+        </li>
+        <li class="cards__item cards__item_position_margin-right">
+          <img class="cards__image" src="./images/images_sprint-2/cards-question.png" alt="question">
+          <h4 class="cards__title">Вопросы</h4>
+          <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+        </li>
+        <li class="cards__item cards__item_position_margin-right">
+          <img class="cards__image" src="./images/images_sprint-2/cards-competence.png" alt="competence">
+          <h4 class="cards__title">Иллюзия компетентности</h4>
+          <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="video">
+      <h2 class="section-title section-title_position_center">Видео нa TED</h2>
+      <p class="section-subtitle section-subtitle_position_center">Для тех, кто любит прокрастинировать</p>
+      <div class="video__iframes video__iframes_position_center">
+        <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <section class="oakley">
+      <div class="two-columns">
+        <h3 class="two-columns__brief">История Барбары Оакли.</h3>
+        <div class="two-columns__main-text">
+          <p class="two-columns__paragraph">
+            С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feynman">
+      <h1 class="feynman__title">Метод Фейнмана</h1>
+      <p class="feynman__subtitle">Выучить и не забыть.</p>
+      <a href="#" class="feynman__link">Подробнее &rarr;</a>
+    </section>
+
     <section class="digits">
       <h2 class="section-title section-title_position_center">Цифры и факты</h2>
       <p class="section-subtitle section-subtitle_position_center">Про учёбу и мозг</p>
@@ -81,13 +141,11 @@
         </li>
       </ul>
     </section>
-    <section class="feynman">
-      <h1 class="feynman__title">Метод Фейнмана</h1>
-      <p class="feynman__subtitle">Выучить и не забыть.</p>
-      <a href="#" class="feynman__link">Подробнее &rarr;</a>
-    </section>
+
+    <!--закончил здесь-->
+
     <section class="kaufman">
-      <div class="kaufman__triangle"></div>
+      <div class="kaufman__triangle rotation"></div>
       <h2 class="section-title section-title_position_center section-title_theme_dark">Принципы обучения</h2>
       <p class="section-subtitle section-subtitle_position_center section-subtitle_theme_dark">от Джоша Кауфмана</p>
       <ul class="table">
@@ -133,6 +191,8 @@
         </li>
       </ul>
     </section>
+
+
   </main>
   <footer class="footer">
     <div class="footer__columns">

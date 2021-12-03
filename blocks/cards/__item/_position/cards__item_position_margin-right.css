@@ -1,0 +1,6 @@
+.cards__item_position_margin-right {
+  margin-right: 100px;
+}
+.cards__item_position_margin-right:nth-child(3) {
+  margin-right: 0;
+}
