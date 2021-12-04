@@ -13,12 +13,12 @@ FlexBox
 ```
 Animation
 ```
-  keyframe name {
+  @keyframes name {
     to {
     ...
     }
   }
-  animation: name liner infinity;
+  animation: name 5s liner infinity;
 ```
 ###### и многих других.
 
