@@ -3,4 +3,5 @@
   height: 608px;
   object-fit: cover;
   object-position: right top;
+  overflow: hidden;
 }
